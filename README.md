@@ -74,16 +74,23 @@ GSynergy-Data-Engineer-Challenge/
 
 ## Diagrams
 
-- **ER Diagram:**
-  - **Editable Source:** `diagrams/GS_FACT_&_DIM_ETL.drawio`
-  - **Exported Image:** `diagrams/ER_Diagram.png`
-- **Dataflow Diagram:**
-  - **Editable Source:** `diagrams/GS_FACT_&_DIM_ETL.drawio`
-  - **Exported Image:** `diagrams/Dataflow_Diagram.png`
+## Diagrams
 
-These diagrams illustrate:
-- The full schema of all fact and dimension tables including columns and primary keys.
-- The flow of data from raw file ingestion through staging to the refined output, including incremental updates.
+### ER Diagram
+
+The ER diagram shows all tables with full column details, primary keys (PK), and foreign key (FK) relationships.
+
+![ER Diagram](diagrams/ER_Diagram.png)
+
+- **Editable Source:** [diagrams/ER_Diagram.puml](diagrams/ER_Diagram.puml)
+
+### Dataflow Diagram
+
+The dataflow diagram illustrates the movement of data from raw ingestion through staging to the refined layer, including incremental updates.
+
+![Dataflow Diagram](diagrams/Dataflow_Diagram.png)
+
+- **Editable Source:** [diagrams/Dataflow_Diagram.drawio](diagrams/Dataflow_Diagram.drawio)
 
 ## Table-wise Definitions (Data Dictionary)
 
